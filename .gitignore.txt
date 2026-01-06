@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+.pytest_cache/
+
+# Environments
+env/
+venv/
+tfenv/
+conda/
+.conda/
+
+# OS
+.DS_Store
+
+# Large archives
+*.zip
+*.rar
+*.7z

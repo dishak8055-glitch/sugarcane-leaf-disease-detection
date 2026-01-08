@@ -1,23 +1,19 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+
+# Virtual environments
+sugar_env/
+tfenv/
+.conda/
 
 # IDE
 .idea/
-.vscode/
+*.iml
+
+# Cache
 .pytest_cache/
 
-# Environments
-env/
-venv/
-tfenv/
-conda/
-.conda/
-
-# OS
-.DS_Store
-
-# Large archives
-*.zip
-*.rar
-*.7z
+# Large model files (optional)
+*.pth
